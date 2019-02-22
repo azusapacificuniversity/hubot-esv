@@ -1,7 +1,7 @@
 {
   "name": "hubot-esv",
   "description": "Simple ESV passage lookup based on api.esv.org",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Scott A. Williams <vwfoxguru@gmail.com>",
   "license": "MIT",
 
@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-esv.git"
+    "url": "git://github.com/azusapacificuniversity/hubot-esv.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-esv/issues"
+    "url": "https://github.com/azusapacificuniversity/hubot-esv/issues"
   },
 
   "dependencies": {
