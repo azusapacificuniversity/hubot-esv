@@ -1,7 +1,7 @@
 {
   "name": "hubot-esv",
   "description": "Simple ESV passage lookup based on api.esv.org",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Scott A. Williams <vwfoxguru@gmail.com>",
   "license": "MIT",
 
