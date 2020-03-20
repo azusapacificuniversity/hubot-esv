@@ -32,7 +32,7 @@ module.exports = (robot) ->
           else
             data = JSON.parse body
             payload = passage for passage in data.passages
-            if payload.split('\n').length > 8
+            if payload.split('\n').length > 8 || payload.split(' ').length > 50
               filename = passage
               opts = {
                 content: payload
