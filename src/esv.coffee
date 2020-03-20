@@ -38,7 +38,7 @@ module.exports = (robot) ->
                 content: payload
                 title: passage
                 channels: msg.room
-                mode: snippet
+                mode: "snippet"
               }
               robot.adapter.client.web.files.upload(filename, opts)
             else
