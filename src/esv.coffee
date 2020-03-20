@@ -31,5 +31,16 @@ module.exports = (robot) ->
             return
           else
             data = JSON.parse body
-            msg.send passage for passage in data.passages
+            payload = passage for passage in data.passages
+            if payload.split('\n').length > 8
+              filename = passage
+              opts = {
+                content: payload
+                title: passage
+                channels res.message.room
+                mode: snippet
+              }
+              robot.adapter.client.web.files.upload(filename, opts)
+            else
+              msg.send payload
             return
