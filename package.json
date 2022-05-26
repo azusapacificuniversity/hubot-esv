@@ -33,6 +33,7 @@
     "grunt-mocha-test": "~0.12.7",
     "grunt-release": "~0.11.0",
     "hubot": "2.x",
+    "lodash": ">=4.17.12",
     "matchdep": "~0.3.0",
     "minimist": "^1.2.6",
     "mocha": "^2.1.0",
