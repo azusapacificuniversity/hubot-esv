@@ -20,7 +20,7 @@
   },
 
   "peerDependencies": {
-    "hubot": "2.x"
+    "hubot": "3.x"
   },
 
   "devDependencies": {
@@ -28,18 +28,16 @@
     "chai": "^2.1.1",
     "coffee-script": "1.6.3",
     "growl": ">=1.10.0",
-    "grunt": "^1.5.3",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-mocha-test": "~0.12.7",
-    "grunt-release": "~0.11.0",
-    "hubot": "2.x",
+    "grunt": ">=1.5.3",
+    "grunt-mocha-test": ">=0.13.3",
+    "hubot": "3.x",
     "lodash": ">=4.17.12",
     "matchdep": "~0.3.0",
-    "minimist": "^1.2.6",
-    "mocha": "^2.1.0",
-    "sinon": "^1.13.0",
-    "sinon-chai": "^2.7.0"
+    "mocha": ">=5.2.0",
+    "minimist": ">=1.2.6",
+    "mocha": ">=5.2.0",
+    "sinon": "^1.17.0",
+    "sinon-chai": "^2.8.0"
   },
 
   "main": "index.coffee",
