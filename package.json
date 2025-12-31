@@ -20,7 +20,7 @@
   },
 
   "peerDependencies": {
-    "hubot": "3.x"
+    "hubot": "13.x"
   },
 
   "devDependencies": {
@@ -30,7 +30,7 @@
     "growl": ">=1.10.0",
     "grunt": ">=1.5.3",
     "grunt-mocha-test": ">=0.13.3",
-    "hubot": "3.x",
+    "hubot": "13.x",
     "lodash": ">=4.17.12",
     "matchdep": "~2.0.0",
     "mocha": ">=5.2.0",
